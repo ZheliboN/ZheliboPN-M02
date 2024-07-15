@@ -11,11 +11,12 @@ third = int(input('Введите целое число №3: '))
 if first==second and first==third and second==third:
     print(f'Между собой равны 3 числа: first = {first}, second = {second}, third = {third}')
 elif first==second or second==third or first==third:
+    print('Между собой равны 2 числа:')
     if first==second:
-        print(f'Между собой равны 2 числа: first = {first}, second = {second}')
+        print(f'first = {first}, second = {second}')
     if second==third:
-        print(f'Между собой равны 2 числа: second = {second}, third = {third}')
+        print(f'second = {second}, third = {third}')
     if first==third:
-        print(f'Между собой равны 2 числа: first = {first}, third = {third}')
+        print(f'first = {first}, third = {third}')
 else:
     print(f'Среди введенных чисел first = {first}, second = {second}, third = {third} равны между собой 0')
